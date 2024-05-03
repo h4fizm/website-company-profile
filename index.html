@@ -51,7 +51,7 @@ https://templatemo.com/tm-591-villa-agency
                 <nav class="main-nav">
                     <!-- ***** Logo Start ***** -->
                     <a href="index.html" class="logo">
-                        <h1>NamaPerusahaan</h1>
+                        <h1>Perusahaan</h1>
                     </a>
                     <!-- ***** Logo End ***** -->
                     <!-- ***** Menu Start ***** -->
@@ -466,72 +466,74 @@ https://templatemo.com/tm-591-villa-agency
       <div class="row">
         <div class="col-lg-7">
           <div id="map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12469.776493332698!2d-80.14036379941481!3d25.907788681148624!2m3!1f357.26927939317244!2f20.870722720054623!3f0!3m2!1i1024!2i768!4f35!3m3!1m2!1s0x88d9add4b4ac788f%3A0xe77469d09480fcdb!2sSunny%20Isles%20Beach!5e1!3m2!1sen!2sth!4v1642869952544!5m2!1sen!2sth" width="100%" height="500px" frameborder="0" style="border:0; border-radius: 10px; box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);" allowfullscreen=""></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3956.743476033155!2d112.71403317500086!3d-7.382618892626974!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zN8KwMjInNTcuNCJTIDExMsKwNDInNTkuOCJF!5e0!3m2!1sid!2sid!4v1714752080451!5m2!1sid!2sid" width="100%" height="500px" frameborder="0" style="border:0; border-radius: 10px; box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);" allowfullscreen=""></iframe>
           </div>
           <div class="row">
             <div class="col-lg-6">
               <div class="item phone">
-                <img src="assets/images/phone-icon.png" alt="" style="max-width: 52px;">
-                <h6>010-020-0340<br><span>Nomor Whatsapp</span></h6>
+                <a href="https://api.whatsapp.com/send?phone=628113510333&text=Hallo%20saya%20ingin%20bertanya">
+                  <img src="assets/images/phone-icon.png" alt="" style="max-width: 52px;">
+                  <h6>+62 811-3510-333<br><span>Nomor Whatsapp</span></h6>
+                </a>
               </div>
-            </div>
+            </div>            
             <div class="col-lg-6">
               <div class="item email">
-                <img src="assets/images/email-icon.png" alt="" style="max-width: 52px;">
-                <h6>admin@admin.co<br><span>Email</span></h6>
+                <a style="text-decoration: none;">
+                  <img src="assets/images/email-icon.png" alt="" style="max-width: 52px;">
+                  <h6 style="font-size: 16px; margin-top: 5px;">farelhafiz52@gmail.com<br><span style="font-size: 12px;">Email</span></h6>
+                </a>
               </div>
-            </div>
+            </div>                    
           </div>
         </div>
         <div class="col-lg-5">
-          <form id="contact-form" action="" method="post">
+          <form id="contact-form" action="https://formspree.io/f/mpzvbybb" method="POST">
             <div class="row">
               <div class="col-lg-12">
                 <fieldset>
                   <label for="name">Nama Lengkap</label>
-                  <input type="name" name="name" id="name" placeholder="Nama Lengkap..." autocomplete="on" required>
+                  <input type="text" id="name" name="name" placeholder="Nama Lengkap..." autocomplete="on" required class="form-control">
                 </fieldset>
               </div>
               <div class="col-lg-12">
                 <fieldset>
                   <label for="email">Email Address</label>
-                  <input type="text" name="email" id="email" pattern="[^ @]*@[^ @]*" placeholder="Email Anda..." required="">
+                  <input type="email" id="email" name="email" pattern="[^ @]*@[^ @]*" placeholder="Email Anda..." required class="form-control">
                 </fieldset>
               </div>
               <div class="col-lg-12">
                 <fieldset>
-                  <label for="subject">Sujek</label>
-                  <input type="subject" name="subject" id="subject" placeholder="Subjek...." autocomplete="on" >
+                  <label for="subject">Subjek</label>
+                  <input type="text" id="subject" name="subject" placeholder="Subjek...." autocomplete="on" class="form-control">
                 </fieldset>
               </div>
               <div class="col-lg-12">
                 <fieldset>
                   <label for="message">Pesan</label>
-                  <textarea name="message" id="message" placeholder="Isi Pesan..."></textarea>
+                  <textarea id="message" name="message" placeholder="Isi Pesan..." class="form-control"></textarea>
                 </fieldset>
               </div>
               <div class="col-lg-12">
                 <fieldset>
-                  <button type="submit" id="form-submit" class="orange-button">Kirim Pesan</button>
+                  <button type="submit" class="orange-button">Kirim Pesan</button>
                 </fieldset>
               </div>
             </div>
           </form>
-        </div>
+        </div>        
       </div>
     </div>
   </div>
 
   <footer>
     <div class="container">
-      <div class="col-lg-8">
-        <p>Copyright © 2024, All rights reserved. 
-        
-        Design: TemplateMo</a> Distribution: ThemeWagon</a></p>
+      <div class="text-center"> <!-- Menambahkan kelas text-center untuk membuat teks berada di tengah -->
+        <p>Copyright © 2024, All rights reserved.</p>
       </div>
     </div>
   </footer>
-
+    
   <!-- Scripts -->
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>

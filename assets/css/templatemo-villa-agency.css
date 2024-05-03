@@ -626,6 +626,7 @@ Header Style
 }
 
 @media (max-width: 767px) {
+  
   .background-header .main-nav {
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
     border-radius: 0px 0px 25px 25px;
@@ -773,7 +774,7 @@ Banner Style
 }
 
 .main-banner .item h2 {
-  font-size: 62px;
+  font-size: 47px;
   font-weight: 700;
   text-transform: uppercase;
   color: #fff;
@@ -1765,13 +1766,22 @@ body {
   .best-deal .section-heading {
     text-align: center;
   }
+  
   .best-deal .tabs-content ul.nav-tabs {
-    margin-top: 0px;
+    margin-top: 10px;
     justify-content: center;
   }
+  
   .best-deal .info-table {
     margin-bottom: 45px;
   }
+  
+  /* Menambahkan jarak antara tombol */
+  .best-deal .nav-wrapper .nav-tabs .nav-link {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
   .best-deal .tab-content img {
     padding: 0px;
   }
